@@ -1,8 +1,13 @@
 
 # Alcatel Onetouch Fire E / Alcatel 6015x
 
-msm8610
+The raw specifications of the device:
 
+|:-------:|:--------------------------------------|
+| Device  | Alcatel 6015x                         |
+| CPU     | Qualcomm MSM8610 (MSM8210 compatible) |
+| Screen  | 540x960                               |
+| Network | 3G (UMTS, GPRS, USSD, SMS)            |
 
 
 ## Usage
