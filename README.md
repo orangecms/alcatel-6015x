@@ -75,6 +75,7 @@ is that FirefoxOS is very different from the typical Android partition setup:
 | system             | /dev/block/mmcblk0p12  |
 | persist            | /dev/block/mmcblk0p13  |
 | cache              | /dev/block/mmcblk0p14  |
+| recovery           | /dev/block/mmcblk0p15  |
 | custpack           | /dev/block/mmcblk0p31  |
 | userdata           | /dev/block/mmcblk0p32  |
 | scard              | /dev/block/vold/259:1  |
@@ -118,10 +119,11 @@ adb pull /storage/sdcard0/custpack.img;
 ```
 
 
-## UNBRICK HOWTO
+## UNBRICK with OEM image backups
 
 Please calm down. Make a cup of tea and calm down. You can fix it, it's pretty easy.
 This repository contains backup images of all the necessary OEM partitions.
+
 
 ### Kernel / Boot Partition
 
@@ -130,6 +132,7 @@ adb reboot bootloader
 fastboot flash boot backup/boot.img
 ```
 
+
 ### Firmware / Modem Partition
 
 ```bash
@@ -137,3 +140,10 @@ adb reboot bootloader
 fastboot flash modem backup/firmware.img
 ```
 
+
+### Recovery
+
+```bash
+adb reboot bootloader
+fastboot flash recovery backup/recovery.img
+```
