@@ -3,6 +3,7 @@
 
 The raw specifications of the device:
 
+| Name    | Hardware                              |
 |:-------:|:--------------------------------------|
 | Device  | Alcatel 6015x                         |
 | CPU     | Qualcomm MSM8610 (MSM8210 compatible) |
