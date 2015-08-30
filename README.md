@@ -8,7 +8,7 @@ msm8610
 ## Usage
 
 - Enter Recovery Mod via \[Power\] + \[Vol Down\]
-- Enter Bootloader via \[Power\] + \[Vol Up\]
+- Enter Bootloader via \[Power\] + \[Vol Up\] + \[Vol Down\]
 
 
 The device is using `fastboot` for the flashing process
@@ -68,24 +68,22 @@ is that FirefoxOS is very different from the typical Android partition setup:
 | firmware (modem)   | /dev/block/mmcblk0p1   |
 | system             | /dev/block/mmcblk0p12  |
 | persist            | /dev/block/mmcblk0p13  |
-|:-------------------|-----------------------:|
 | cache              | /dev/block/mmcblk0p14  |
 | custpack           | /dev/block/mmcblk0p31  |
 | userdata           | /dev/block/mmcblk0p32  |
-|:-------------------|-----------------------:|
 | scard              | /dev/block/vold/259:1  |
 | scard1             | /dev/block/vold/179:65 |
-|:-------------------|-----------------------:|
 
 
 ## Backup Procedure
 
-First, you must have followed the Rooting instructions. If you have root, you
+First, you must have followed the Root instructions. If you have root, you
 can connect to the device via `adb shell` and backup the partitions with the
 following instructions.
 
 ```bash
 # On adb shell
+su;
 cat /dev/block/platform/msm_sdcc.1/by-name/boot     > /storage/sdcard0/boot.img
 cat /dev/block/platform/msm_sdcc.1/by-name/modem    > /storage/sdcard0/firmware.img
 cat /dev/block/platform/msm_sdcc.1/by-name/system   > /storage/sdcard0/system.img
