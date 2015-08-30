@@ -1,0 +1,35 @@
+root@msm8610:/dev/block/platform/msm_sdcc.1/by-name # ls -la
+lrwxrwxrwx root     root              1970-01-03 23:03 DDR -> /dev/block/mmcblk0p4
+lrwxrwxrwx root     root              1970-01-03 23:03 aboot -> /dev/block/mmcblk0p5
+lrwxrwxrwx root     root              1970-01-03 23:03 abootbk -> /dev/block/mmcblk0p28
+lrwxrwxrwx root     root              1970-01-03 23:03 boot -> /dev/block/mmcblk0p7
+lrwxrwxrwx root     root              1970-01-03 23:03 cache -> /dev/block/mmcblk0p14
+lrwxrwxrwx root     root              1970-01-03 23:03 custpack -> /dev/block/mmcblk0p31
+lrwxrwxrwx root     root              1970-01-03 23:03 fota -> /dev/block/mmcblk0p27
+lrwxrwxrwx root     root              1970-01-03 23:03 fsc -> /dev/block/mmcblk0p18
+lrwxrwxrwx root     root              1970-01-03 23:03 fsg -> /dev/block/mmcblk0p17
+lrwxrwxrwx root     root              1970-01-03 23:03 misc -> /dev/block/mmcblk0p16
+lrwxrwxrwx root     root              1970-01-03 23:03 modem -> /dev/block/mmcblk0p1
+lrwxrwxrwx root     root              1970-01-03 23:03 modemst1 -> /dev/block/mmcblk0p10
+lrwxrwxrwx root     root              1970-01-03 23:03 modemst2 -> /dev/block/mmcblk0p11
+lrwxrwxrwx root     root              1970-01-03 23:03 pad -> /dev/block/mmcblk0p9
+lrwxrwxrwx root     root              1970-01-03 23:03 persist -> /dev/block/mmcblk0p13
+lrwxrwxrwx root     root              1970-01-03 23:03 recovery -> /dev/block/mmcblk0p15
+lrwxrwxrwx root     root              1970-01-03 23:03 rpm -> /dev/block/mmcblk0p6
+lrwxrwxrwx root     root              1970-01-03 23:03 rpmbk -> /dev/block/mmcblk0p29
+lrwxrwxrwx root     root              1970-01-03 23:03 sbl1 -> /dev/block/mmcblk0p2
+lrwxrwxrwx root     root              1970-01-03 23:03 sdi -> /dev/block/mmcblk0p3
+lrwxrwxrwx root     root              1970-01-03 23:03 secro -> /dev/block/mmcblk0p26
+lrwxrwxrwx root     root              1970-01-03 23:03 splash -> /dev/block/mmcblk0p20
+lrwxrwxrwx root     root              1970-01-03 23:03 ssd -> /dev/block/mmcblk0p19
+lrwxrwxrwx root     root              1970-01-03 23:03 studypara1 -> /dev/block/mmcblk0p23
+lrwxrwxrwx root     root              1970-01-03 23:03 studypara2 -> /dev/block/mmcblk0p24
+lrwxrwxrwx root     root              1970-01-03 23:03 studypara3 -> /dev/block/mmcblk0p25
+lrwxrwxrwx root     root              1970-01-03 23:03 system -> /dev/block/mmcblk0p12
+lrwxrwxrwx root     root              1970-01-03 23:03 traceability -> /dev/block/mmcblk0p21
+lrwxrwxrwx root     root              1970-01-03 23:03 tuningpara -> /dev/block/mmcblk0p22
+lrwxrwxrwx root     root              1970-01-03 23:03 tz -> /dev/block/mmcblk0p8
+lrwxrwxrwx root     root              1970-01-03 23:03 tzbk -> /dev/block/mmcblk0p30
+lrwxrwxrwx root     root              1970-01-03 23:03 usbmsc -> /dev/block/mmcblk0p33
+lrwxrwxrwx root     root              1970-01-03 23:03 userdata -> /dev/block/mmcblk0p32
+

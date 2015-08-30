@@ -1,0 +1,16 @@
+Filesystem               Size     Used     Free   Blksize
+/dev                   199.2M   132.0K   199.1M   4096
+/sys/fs/cgroup         199.2M    12.0K   199.2M   4096
+/mnt/asec              199.2M     0.0K   199.2M   4096
+/mnt/obb               199.2M     0.0K   199.2M   4096
+/system                354.2M   218.9M   135.2M   4096
+/custpack              196.7M    99.4M    97.4M   4096
+/data                    1.0G    54.1M  1015.4M   4096
+/cache                  70.8M    17.8M    53.1M   4096
+/persist                 4.9M     4.1M   848.0K   4096
+/firmware               64.0M    31.8M    32.2M   16384
+/storage/sdcard          1.7G   140.5M     1.6G   4096
+/storage/sdcard1       941.7M   941.7M     0.0K   16384
+/mnt/media_rw/sdcard     1.7G   140.5M     1.6G   4096
+/mnt/media_rw/sdcard1   941.7M   941.7M     0.0K   16384
+
