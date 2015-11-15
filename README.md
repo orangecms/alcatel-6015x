@@ -131,7 +131,8 @@ This repository contains backup images of all the necessary OEM partitions.
 adb reboot bootloader
 fastboot flash boot backup/boot.img
 ```
-
+In the directory `backup/boot` you can find the extracted image. It was created with [mkboot](https://github.com/xiaolu/mkbootimg_tools).
+The directory also contains the file `kernel-config` which was obtained through the script at `scripts/extract-ikconfig` that comes with the Linux kernel sources.
 
 ### Firmware / Modem Partition
 
@@ -147,3 +148,7 @@ fastboot flash modem backup/firmware.img
 adb reboot bootloader
 fastboot flash recovery backup/recovery.img
 ```
+
+## Custom kernel
+You would probably want to use the config in `backup/boot/kernel-config` as a starting point.
+Just copy it into your [kernel sources](https://github.com/orangecms/ot_6015x) directory as `.config`.
